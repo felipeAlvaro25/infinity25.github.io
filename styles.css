@@ -1,0 +1,27 @@
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    margin-bottom: 20px;
+}
+
+/* Estilo para las celdas de la tabla */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Estilo para las celdas de encabezado de la tabla */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Cambia el fondo de las filas pares */
+tr:nth-child(even) {
+    background-color: #5b07ebdf;
+}
+
+/* Estilo al pasar el cursor sobre las filas */
+tr:hover {
+    background-color: #ddd;
+}
